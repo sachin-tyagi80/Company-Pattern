@@ -5,10 +5,8 @@ class pairSum{
     static void checkSum(int n, int k, int[] a) {
 
         Arrays.sort(a);   // sort array
-
         int left = 0;
         int right = n - 1;
-
         while(left < right) {
 
             int sum = a[left] + a[right];
